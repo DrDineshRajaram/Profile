@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1730">
+<meta name="description" content="Professional profile of Dinesh R, Lecturer in Production Engineering, researcher in sand casting simulation and automated gating system design.">
+<title>Dinesh R | Production Engineering & Research</title>
+<style>
+:root{--navy:#0b1730;--navy2:#122746;--blue:#2f80ed;--cyan:#6ee7e0;--ink:#17233a;--muted:#65738a;--paper:#f5f7fb;--white:#fff;--line:#e4e9f2;--shadow:0 18px 50px rgba(17,35,67,.10)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(11,23,48,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-weight:800;letter-spacing:.3px;font-size:1.12rem}.brand span{color:var(--cyan)}
+nav{display:flex;gap:22px;align-items:center;font-size:.9rem;color:#dce6f6}
+nav a:hover{color:var(--cyan)}.menu-btn{display:none;background:none;border:1px solid #60708a;color:white;border-radius:8px;padding:7px 11px;font-size:1.1rem}
+.hero{background:radial-gradient(circle at 82% 20%,rgba(47,128,237,.26),transparent 28%),linear-gradient(125deg,var(--navy),var(--navy2));color:white;padding:88px 0 78px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.45fr .8fr;gap:60px;align-items:center}
+.eyebrow{display:inline-flex;gap:9px;align-items:center;color:var(--cyan);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.76rem}
+.eyebrow:before{content:"";width:26px;height:2px;background:var(--cyan)}
+h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.04;letter-spacing:-2px;margin:18px 0 14px}
+.hero h1 span{color:var(--cyan)}
+.role{font-size:1.22rem;color:#d4e1f5;margin:0 0 20px}.intro{max-width:690px;color:#bdcbe0;font-size:1.03rem}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:10px;font-weight:700;font-size:.92rem;transition:.2s}
+.btn-primary{background:var(--cyan);color:var(--navy)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 22px #6ee7e044}
+.btn-outline{border:1px solid #71839f;color:#fff}.btn-outline:hover{background:#ffffff12}
+.hero-card{border:1px solid #ffffff25;background:#ffffff0b;border-radius:24px;padding:28px;box-shadow:0 24px 60px #0002}
+.monogram{width:94px;height:94px;border-radius:24px;background:linear-gradient(135deg,var(--cyan),#6da9ff);color:var(--navy);display:grid;place-items:center;font-weight:900;font-size:2rem;margin-bottom:24px}
+.hero-card h3{margin:0 0 5px;font-size:1.2rem}.hero-card p{margin:0;color:#b9c8dc;font-size:.92rem}
+.quick-facts{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}
+.fact{padding:14px;border-radius:13px;background:#ffffff0c}.fact strong{display:block;color:var(--cyan);font-size:1.25rem}.fact span{font-size:.78rem;color:#c4d0e1}
+section{padding:78px 0}.section-head{margin-bottom:34px;max-width:720px}.kicker{color:var(--blue);font-size:.76rem;letter-spacing:2px;text-transform:uppercase;font-weight:800}
+h2{font-size:clamp(1.9rem,3.4vw,2.7rem);line-height:1.15;letter-spacing:-.8px;margin:8px 0 13px;color:var(--navy)}
+.section-head p{color:var(--muted);margin:0}
+.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:start}
+.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:27px;box-shadow:var(--shadow)}
+.panel p{margin-top:0;color:#53627a}.pill-list{display:flex;flex-wrap:wrap;gap:9px}
+.pill{font-size:.84rem;padding:8px 12px;border-radius:999px;background:#edf4ff;color:#244e88;border:1px solid #d9e8ff;font-weight:650}
+.info-list{display:grid;gap:16px}.info-item{display:flex;gap:13px;align-items:flex-start}.icon{flex:0 0 38px;width:38px;height:38px;border-radius:11px;background:#eaf5ff;color:#2468bd;display:grid;place-items:center;font-weight:800}.info-item strong{display:block}.info-item small{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:26px}
+.stat{background:white;border:1px solid var(--line);border-radius:16px;padding:20px}.stat strong{display:block;font-size:1.65rem;color:var(--blue)}.stat span{font-size:.84rem;color:var(--muted)}
+.alt{background:#eef2f8}
+.timeline{display:grid;gap:16px}.timeline-item{display:grid;grid-template-columns:155px 1fr;gap:22px;background:white;padding:22px 25px;border-radius:16px;border:1px solid var(--line)}
+.date{font-weight:800;color:var(--blue);font-size:.9rem}.timeline-item h3{margin:0 0 4px;font-size:1.08rem}.timeline-item p{margin:0;color:var(--muted);font-size:.93rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 30px #17233a08;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.card .tag{display:inline-block;background:#e8f8f7;color:#167c79;border-radius:7px;padding:5px 9px;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.5px}
+.card h3{font-size:1.08rem;line-height:1.4;margin:15px 0 10px}.card p{font-size:.9rem;color:var(--muted);margin:0 0 13px}.card a{color:#2369c6;font-weight:750;font-size:.87rem}
+.pub-list{display:grid;gap:13px}.publication{padding:19px 22px;background:white;border:1px solid var(--line);border-radius:14px}.publication h3{font-size:1rem;margin:0 0 6px;line-height:1.45}.publication p{font-size:.88rem;color:var(--muted);margin:0}.publication a{color:#2369c6;font-weight:700}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}.skill-block h3{margin-top:0}.skill-row{margin:17px 0}.skill-row div:first-child{display:flex;justify-content:space-between;font-size:.9rem;font-weight:650;margin-bottom:7px}.track{height:7px;border-radius:99px;background:#e9eef6;overflow:hidden}.fill{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.contact{background:linear-gradient(125deg,var(--navy),var(--navy2));color:white}.contact h2{color:white}.contact .section-head p{color:#bdcbe0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.contact-box{border:1px solid #ffffff24;background:#ffffff0a;border-radius:18px;padding:25px}.contact-box p{color:#c4d0e1;margin:0 0 15px}.contact-box a{color:var(--cyan);overflow-wrap:anywhere}
+footer{background:#071124;color:#9eacc1;padding:22px 0;font-size:.83rem}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.backtop{position:fixed;right:20px;bottom:20px;width:43px;height:43px;display:grid;place-items:center;background:var(--blue);color:white;border-radius:12px;box-shadow:var(--shadow)}
+@media(max-width:850px){nav{display:none;position:absolute;top:72px;left:0;right:0;background:var(--navy);padding:20px 5%;flex-direction:column;align-items:flex-start}nav.open{display:flex}.menu-btn{display:block}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:62px 0}.hero-card{max-width:520px}.cards{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){section{padding:56px 0}.cards,.two-col{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:6px;padding:20px}.quick-facts{grid-template-columns:1fr 1fr}.hero h1{letter-spacing:-1.2px}.panel{padding:22px}.footer-inner{display:block}}
+@media print{header,.actions,.backtop{display:none!important}body{background:white}.hero,.contact{background:white;color:#111;padding:30px 0}.hero h1,.hero h1 span,.hero .role,.hero .intro,.contact h2,.contact .section-head p{color:#111}section{padding:30px 0}.hero-card,.panel,.card,.publication,.timeline-item,.stat{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">DINESH <span>R.</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#skills">Expertise</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Academic · Researcher · Engineer</div>
+      <h1>Dinesh <span>R.</span></h1>
+      <p class="role">Lecturer in Production Engineering</p>
+      <p class="intro">An engineering educator and researcher focused on manufacturing technology, foundry processes, casting simulation, and automation. I connect engineering fundamentals with practical problem-solving to support student learning and industrial quality improvement.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#research">Explore Research <span aria-hidden="true">&nbsp;↗</span></a>
+        <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        <button class="btn btn-outline" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="monogram">DR</div>
+      <h3>Production Engineering</h3>
+      <p>Government Polytechnic College, Coimbatore, Tamil Nadu, India</p>
+      <div class="quick-facts">
+        <div class="fact"><strong>Ph.D.</strong><span>Mechanical Engineering</span></div>
+        <div class="fact"><strong>10+ yrs</strong><span>Professional experience*</span></div>
+        <div class="fact"><strong>GATE</strong><span>Qualified in 2012, 2020 & 2022</span></div>
+        <div class="fact"><strong>Research</strong><span>Sand casting & automation</span></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-head"><div class="kicker">About</div><h2>Teaching engineering. Improving manufacturing.</h2><p>A profile built around technical education, applied research, and simulation-led manufacturing improvement.</p></div>
+    <div class="about-grid">
+      <div class="panel">
+        <p>My academic and professional interests centre on helping learners develop strong engineering foundations while applying CAD, simulation, and manufacturing methods to real-world problems. My research focuses on simulation-driven automation of gating system design to improve sand casting quality and reduce casting defects.</p>
+        <p>I have experience across technical education, engineering instruction, research publications, industry exposure, and software development. Before moving into full-time teaching, I also worked in the IT industry as a Programmer Analyst.</p>
+        <div class="pill-list"><span class="pill">Technical Education</span><span class="pill">Applied Research</span><span class="pill">Manufacturing</span><span class="pill">Simulation</span><span class="pill">Student Mentoring</span></div>
+      </div>
+      <div class="panel info-list">
+        <div class="info-item"><div class="icon">01</div><div><strong>Current Institution</strong><small>Government Polytechnic College, Coimbatore</small></div></div>
+        <div class="info-item"><div class="icon">02</div><div><strong>Core Specialisation</strong><small>Production & Manufacturing Engineering</small></div></div>
+        <div class="info-item"><div class="icon">03</div><div><strong>Research Theme</strong><small>Simulation-driven gating design automation</small></div></div>
+        <div class="info-item"><div class="icon">04</div><div><strong>Professional Membership</strong><small>The Institution of Engineers (India)</small></div></div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>3</strong><span>Engineering / academic roles before current post</span></div>
+      <div class="stat"><strong>3</strong><span>GATE qualifications listed in CV</span></div>
+      <div class="stat"><strong>5+</strong><span>Research publications and book chapters listed</span></div>
+      <div class="stat"><strong>2012</strong><span>Started professional career</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="experience">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Career</div><h2>Professional experience</h2><p>Academic, teaching, and technology experience across higher education and industry.</p></div>
+    <div class="timeline">
+      <article class="timeline-item"><div class="date">Sep 2022 – Present</div><div><h3>Lecturer · Production Engineering</h3><p>Government Polytechnic College, Coimbatore, India. Teaching and academic responsibilities in Production Engineering.</p></div></article>
+      <article class="timeline-item"><div class="date">Jun 2016 – Sep 2022</div><div><h3>Assistant Professor</h3><p>PSG College of Technology, Coimbatore, India.</p></div></article>
+      <article class="timeline-item"><div class="date">Jun 2015 – May 2016</div><div><h3>Assistant Professor</h3><p>Sri Eshwar College of Engineering, Coimbatore, India.</p></div></article>
+      <article class="timeline-item"><div class="date">May 2012 – Sep 2013</div><div><h3>Programmer Analyst</h3><p>Cognizant Technology Solutions, India.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Education</div><h2>Academic qualifications</h2><p>Engineering education with a focus on manufacturing and production systems.</p></div>
+    <div class="timeline">
+      <article class="timeline-item"><div class="date">2025</div><div><h3>Ph.D. · Mechanical Engineering</h3><p>Anna University, Chennai, India. The uploaded CV lists 91.5% and June 2025 as the expected completion date; the current profile reflects subsequent completion.</p></div></article>
+      <article class="timeline-item"><div class="date">2013 – 2015</div><div><h3>M.E. · Manufacturing Engineering</h3><p>Government College of Technology, Coimbatore, India · 93.6% · First Class with Distinction.</p></div></article>
+      <article class="timeline-item"><div class="date">2008 – 2012</div><div><h3>B.E. · Production Engineering</h3><p>PSG College of Technology, Coimbatore, India · 74.7% · First Class.</p></div></article>
+      <article class="timeline-item"><div class="date">2006 – 2008</div><div><h3>Higher Secondary (XII)</h3><p>Siga Higher Secondary School, Villupuram, India · 90.08%.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="research">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Research</div><h2>Research interests & focus</h2><p>Using digital engineering tools to improve process understanding, product quality, and manufacturing performance.</p></div>
+    <div class="cards">
+      <article class="card"><span class="tag">Primary research</span><h3>Simulation-driven automation of gating system design</h3><p>Developing a closed-loop approach combining CAD modelling, casting simulation, and automation to improve gating-system design.</p></article>
+      <article class="card"><span class="tag">Casting quality</span><h3>Defect reduction in sand casting</h3><p>Investigating shrinkage porosity, sand inclusion, blowholes, misrun, and cold shuts through process analysis and simulation.</p></article>
+      <article class="card"><span class="tag">Digital engineering</span><h3>CAD–CAE integration</h3><p>Applying Creo, ProCAST, and MATLAB-based workflows to support iterative design evaluation and optimisation.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Scholarship</div><h2>Selected publications</h2><p>Selected journal articles, book chapters, and conference contributions listed in the supplied CV.</p></div>
+    <div class="pub-list">
+      <article class="publication"><h3>A Review on Defect Minimization in Sand Casting</h3><p>Dhanush S., Balaganesh S., Vijayakumar V., Ashok Kumar C., Dinesh R., Elangovan S. · <em>NVEO – Natural Volatiles & Essential Oils</em>, 2021, pp. 3076–3093.</p></article>
+      <article class="publication"><h3>Analysis on Bending Stress of Helical Gear</h3><p>Jeeva D., Vijayakumar V., Basha J. K., Dinesh R., Mohanraj R. · <em>NVEO – Natural Volatiles & Essential Oils</em>, 2021.</p></article>
+      <article class="publication"><h3>Optimization Technique using Response Surface Method for USMW Process</h3><p>Ganesamoorthi B., Kalaivanan S., Dinesh R., Naveen Kumar T., Anand K. · <em>Procedia – Social and Behavioral Sciences</em>, Elsevier, 2015.</p></article>
+      <article class="publication"><h3>Study and Development of Remote Control Appliances in Daily Life</h3><p>S. Pratheesh Kumar, R. Dinesh, V. Raja, S. Karthikeyan · In <em>Materials, Design and Manufacturing for Sustainable Environment</em>, Springer, 2022, pp. 205–219. <a href="https://doi.org/10.1007/978-981-19-3053-9_18" target="_blank" rel="noopener">DOI ↗</a></p></article>
+      <article class="publication"><h3>Evolution, Revolution and Future of Plastics for an Eco-friendly Environment</h3><p>S. Pratheesh Kumar, R. Dinesh, S. Balaganesh, V. Vijayakumar · In <em>Recent Advances in Material, Manufacturing, and Machine Learning</em>, Taylor & Francis, 2023, pp. 95–104. <a href="https://doi.org/10.1201/9781003358596-10" target="_blank" rel="noopener">DOI ↗</a></p></article>
+      <article class="publication"><h3>Intermittent Renewable Energy Sources for Green and Sustainable Environment – A Study</h3><p>S. Pratheesh Kumar, R. Dinesh, S. Balaganesh, V. Vijayakumar · In <em>Recent Advances in Material, Manufacturing, and Machine Learning</em>, Taylor & Francis, 2023, pp. 87–97. <a href="https://doi.org/10.1201/9781003358596-9" target="_blank" rel="noopener">DOI ↗</a></p></article>
+      <article class="publication"><h3>A Comprehensive Study on Powder Catchment Efficiency in Direct Metal Deposition</h3><p>S. Pratheesh Kumar, R. Naveen Antbuvan, R. Dinesh, K. Mukesh · In <em>Recent Advances in Material, Manufacturing, and Machine Learning, Volume 2</em>, Taylor & Francis, 2023. <a href="https://doi.org/10.1201/9781003370628-93" target="_blank" rel="noopener">DOI ↗</a></p></article>
+      <article class="publication"><h3>Gating Design Optimization of Spring Seat in Green Sand-Casting Process</h3><p>Dinesh R. et al. · Proceedings of the Research Conclave, 2022.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="skills">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Expertise</div><h2>Technical skills & achievements</h2><p>Tools and areas of experience drawn from the CV. Bars are visual category indicators, not formal proficiency ratings.</p></div>
+    <div class="two-col">
+      <div class="panel skill-block">
+        <h3>Software proficiency</h3>
+        <div class="skill-row"><div><span>Creo Parametric</span><span>CAD</span></div><div class="track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="skill-row"><div><span>ProCAST</span><span>Simulation</span></div><div class="track"><div class="fill" style="width:88%"></div></div></div>
+        <div class="skill-row"><div><span>MATLAB</span><span>Automation</span></div><div class="track"><div class="fill" style="width:82%"></div></div></div>
+        <div class="skill-row"><div><span>SolidWorks</span><span>CAD</span></div><div class="track"><div class="fill" style="width:78%"></div></div></div>
+        <div class="skill-row"><div><span>AutoCAD & Minitab</span><span>Design / analysis</span></div><div class="track"><div class="fill" style="width:74%"></div></div></div>
+      </div>
+      <div class="panel">
+        <h3>Honours & distinctions</h3>
+        <div class="info-list">
+          <div class="info-item"><div class="icon">★</div><div><strong>State Topper – TRB Lecturer Recruitment</strong><small>Production Engineering, 2022.</small></div></div>
+          <div class="info-item"><div class="icon">G</div><div><strong>GATE qualified</strong><small>GATE 2012; GATE 2020 (AIR 247); GATE 2022 (AIR 121), Production & Industrial Engineering.</small></div></div>
+          <div class="info-item"><div class="icon">2</div><div><strong>Second rank in M.E. department</strong><small>Government College of Technology, 2013–2015.</small></div></div>
+          <div class="info-item"><div class="icon">🏅</div><div><strong>National-level Sepak Takraw player</strong><small>Represented Tamil Nadu at the Senior National Championship in 2012.</small></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:22px">
+      <h3>Additional experience</h3>
+      <div class="pill-list"><span class="pill">Foundry Technology</span><span class="pill">Casting Process Simulation</span><span class="pill">Manufacturing Technology</span><span class="pill">Maintenance & Safety Engineering</span><span class="pill">Computer-Aided Design</span><span class="pill">CNC Lathe & Milling</span><span class="pill">Finite Element Analysis</span><span class="pill">Research Methodology</span><span class="pill">Technical Education</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="section-head"><div class="kicker">Contact</div><h2>Let’s connect</h2><p>For academic collaboration, research discussion, teaching-related enquiries, and professional communication.</p></div>
+      <a class="btn btn-primary" href="mailto:dineshrjrj@gmail.com">Email Dinesh ↗</a>
+    </div>
+    <div class="contact-box">
+      <p><strong>Email</strong><br><a href="mailto:dineshrjrj@gmail.com">dineshrjrj@gmail.com</a></p>
+      <p><strong>Phone</strong><br><a href="tel:+919865815897">+91 98658 15897</a></p>
+      <p><strong>Institution</strong><br>Government Polytechnic College, Coimbatore, Tamil Nadu, India</p>
+      <p style="font-size:.8rem;margin-bottom:0">For privacy, the residential address and date of birth from the original CV are not displayed on this public-facing profile.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="container footer-inner"><span>© <span id="year"></span> Dinesh R. · Academic & Research Profile</span><span>Designed as a responsive, single-file HTML website</span></div></footer>
+<a class="backtop" href="#home" aria-label="Back to top">↑</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('nav a').forEach(link=>link.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));
+</script>
+</body>
+</html>
